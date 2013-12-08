@@ -1,1 +1,96 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+/*Layout*/
+
+#container  {position:relative; 
+             max-width:600px;
+             margin:auto;
+             background-color:#51412a;
+            font-family:"Verdana";
+            font-size:10px;
+            }
+#topbar     {background-color:#51412a;
+                height:220px;
+                width:600px;
+                text-align:right;
+             background-repeat:no-repeat;  
+             background-image:url(pics/coffey.jpg);
+             background-position:bottom;
+             color:#a99a84;
+             font-style: oblique;
+            }
+#content    {background-color:#ebddad;
+            margin-top:38px;
+            padding-top:15px;
+            padding-left:5px;
+            padding-right:5px;
+            padding-bottom:8px;
+            
+            }
+
+#menu       {background-color:#a99a84;
+                margin-top:-10px;
+               margin-right:7px;  
+               margin-left:-36px;
+               font-size:16px;
+            }
+img {float:left;
+     margin-right:5px;
+     margin-bottom:5px;
+
+}
+#maincontent {float:left;
+             width:360px;
+              color:#51412a;
+              border-right:dotted silver 2px;
+                }
+
+                
+#subcontent {float:left;
+             width:200px;
+             column-count:1;
+             column-width:195px;
+             color:#51412a;
+             margin-left:10px;
+             
+            }
+#bottomcontent {width:100%;
+                overflow:auto;
+                font-style: oblique;}
+#menu li.active a{background-color:#ebddad;
+                  color:#51412a;}
+#menu a {display:none;}
+
+li {list-style-type:none;}
+#menu li a { background-color:#9e8e76;
+                text-decoration:none;
+                list-style-type:none;
+                color:#d7c8ad;
+               float:left;
+               display:block;
+               text-transform:capitalize;
+               border-left:1px solid #51412a;
+               border-right:1px solid #51412a;  
+               
+               padding-top:3px;
+               padding-left:20px;
+               padding-right:20px;
+               
+               
+               
+                 }
+ /*typografi*/
+ 
+#subcontent li a{color:#a99a84;
+                padding-left:5px;
+            }
+p {font-family:"Verdana";}
+li {font-family:"Verdana";}
+h2 {font-size:1em;
+    font-family:"times New Roman";    
+         }
+h1 {font-family:"times new roman";}
+#bottomcontent {font-size:-2em;}
+
+#subcontent  {font-size:10px;}
+#subconten li {font-size:25px;}
+#subcontent ul li a{color:#51412a;}
+#subcontent ul li {padding-left: 0;}
